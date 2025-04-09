@@ -37,7 +37,7 @@ packages = [{include = "buildarr"}]
 "Changes" = "https://buildarr.github.io/plugins/release-notes"
 "Issue Tracker" = "https://github.com/buildarr/buildarr/issues"
 
-[tool.poetry.entry-points.scripts]
+[tool.poetry.scripts]
 buildarr = "buildarr.cli.main:main"
 
 [tool.poetry.entry-points."buildarr.plugins"]
